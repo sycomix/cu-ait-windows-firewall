@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIT_LABO_006.WPF", "AIT_LABO_006.WPF\AIT_LABO_006.WPF.csproj", "{613FD88F-3A39-4388-A238-8A9F6BFBAF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIT_LABO_006.LIB", "AIT_LABO_006.LIB\AIT_LABO_006.LIB.csproj", "{7B53A13F-F1E9-43E5-ADDF-E99AADD03E7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{613FD88F-3A39-4388-A238-8A9F6BFBAF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613FD88F-3A39-4388-A238-8A9F6BFBAF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613FD88F-3A39-4388-A238-8A9F6BFBAF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613FD88F-3A39-4388-A238-8A9F6BFBAF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B53A13F-F1E9-43E5-ADDF-E99AADD03E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B53A13F-F1E9-43E5-ADDF-E99AADD03E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B53A13F-F1E9-43E5-ADDF-E99AADD03E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B53A13F-F1E9-43E5-ADDF-E99AADD03E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11F4E5B1-B8D2-4169-A6B1-9EA76D620835}
+	EndGlobalSection
+EndGlobal
