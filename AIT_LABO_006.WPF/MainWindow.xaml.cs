@@ -47,7 +47,7 @@ namespace AIT_LABO_006.WPF
         {
             lstRules.Items.Clear();
             ListBoxItem itm;
-            foreach (INetFwRule regel in WinFireWall.GetAllIncommingRules(richting))
+            foreach (INetFwRule regel in WinFireWall.GetAllRules(richting))
             {
                 itm = new ListBoxItem();
                 itm.Content = regel.Name;

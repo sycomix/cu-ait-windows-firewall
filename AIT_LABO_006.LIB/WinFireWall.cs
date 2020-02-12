@@ -53,7 +53,7 @@ namespace AIT_LABO_006.LIB
 
             return true;
         }
-        public static IList<INetFwRule> GetAllIncommingRules(NET_FW_RULE_DIRECTION_ richting)
+        public static IList<INetFwRule> GetAllRules(NET_FW_RULE_DIRECTION_ richting)
         {
             IList<INetFwRule> rules = new List<INetFwRule>();
             INetFwPolicy2 fwpoliciy = (INetFwPolicy2)Activator.CreateInstance(Type.GetTypeFromProgID("HNetCfg.FwPolicy2"));
